@@ -2,7 +2,7 @@
 
 document.addEventListener('DOMContentLoaded', () => {
     // --- AI Initialization ---
-    const ai = new GoogleGenAI({ apiKey:"5R8LN9ZWL9QZV6Q2"});
+    const apiKey = "5R8LN9ZWL9QZV6Q2"});
 
     // --- State ---
     let activeTab = 'home';
