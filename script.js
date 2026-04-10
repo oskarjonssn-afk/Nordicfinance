@@ -2,7 +2,7 @@ import { GoogleGenAI } from "@google/genai";
 
 document.addEventListener('DOMContentLoaded', () => {
     // --- AI Initialization ---
-    const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
+    const ai = new GoogleGenAI({ apiKey: 5R8LN9ZWL9QZV6Q2 });
 
     // --- State ---
     let activeTab = 'home';
