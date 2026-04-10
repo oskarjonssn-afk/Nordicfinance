@@ -207,4 +207,4 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     initSidebar(); initHome(); initEconomy(); initNews(); updateDate();
-});
+);
