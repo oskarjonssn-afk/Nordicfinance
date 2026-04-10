@@ -11,7 +11,8 @@ let stockChart = null;
 
 // --- Funktion för att uppdatera värden i DOM ---
 function updateUIValue(id, value) {
-    const element = document.getElementById(id);
+    const element = document.addEventListener('DOMContentLoaded', () => {
+    console.log("Sidan är redo, nu kör vi logiken!"););
     if (element) {
         element.textContent = value;
     }
