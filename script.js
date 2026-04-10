@@ -1,6 +1,6 @@
 // --- API Konfiguration för Vercel ---
 // Använd miljövariabler i Vercel (inställningar -> Environment Variables)
-const apiKey = typeof process !== 'undefined' ? process.env.NEXT_PUBLIC_STOCK_API_KEY : 'DIN_API_NYCKEL_HÄR';
+const apiKey = typeof process !== 'undefined' ? process.env.NEXT_PUBLIC_STOCK_API_KEY : process.env.GEMINI_API_KEY;
 
 // Om du använder Google Gemini SDK via CDN:
 // import { GoogleGenAI } from "https://esm.run/@google/genai";
